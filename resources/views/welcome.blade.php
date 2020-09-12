@@ -44,13 +44,15 @@ https://templatemo.com/tm-530-mini-profile
                 <p class="pb-0">
                    Laravel offers superior code foundations, easy maintainability and resilient features, it has proven its position amongst the best PHP frameworks available. <br> <br>
                    we work closely with our clients to build scalable web applications making use of Laravel to elevate your business through high quality web applications.
-    </p>
+                </p>
               </div>
             </div>
             <!-- Brown bg -->
             <div class="col-md-5">
               <div class="tm-welcome-right">
-                <i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>
+                <center>
+                <img src="img/profile-pic.jpg" class="rounded-circle p-3" alt="" height="150" width="150">
+                </center>                
                 <p class="mb-0">
                   Building quality websites and applications with Laravel, Vue js, as well as many other technologies.
                 </p>
@@ -84,7 +86,7 @@ https://templatemo.com/tm-530-mini-profile
 
             <div class="tm-portfolio-item">
               <div class="tm-portfolio-name text-white tm-bg-orange">
-                Junior UX Designer
+                <a href="https://xd.adobe.com/view/da8188d5-b513-4308-724f-ae1789c4ce22-acb0/"  style="color: white;"" >Junior UX Designer</a> 
               </div>
               <div class="tm-portfolio-description">
                 <h3 class="tm-text-orange">
@@ -100,7 +102,7 @@ https://templatemo.com/tm-530-mini-profile
 
             <div class="tm-portfolio-item">
               <div class="tm-portfolio-name text-white tm-bg-blue">
-                Application development
+                <a href="https://laravelvuejs5.herokuapp.com/" style="color: white;">Application development</a>        
               </div>
               <div class="tm-portfolio-description">
                 <h3 class="tm-text-blue">
@@ -125,7 +127,7 @@ https://templatemo.com/tm-530-mini-profile
           <div class="col-12">
             <div class="tm-contact-items-container">
               <div class="tm-contact-item">
-                <i class="fas fa-5x fa-briefcase tm-contact-item-icon"></i>
+                <i class="fas fa-5x fa-code tm-contact-item-icon"></i>
                 <p class="mb-0">
                   Quisque venenatis viverra ultrices. Lorem ipsum dolor sit
                   amet. Nullam sit amet tempor nisl.
