@@ -185,12 +185,7 @@ https://templatemo.com/tm-530-mini-profile
             @if($message = Session::get('success'))
             <div class="alert-success alert-block alert">
               <button type="button" class="close" data-dismiss="alert">x</button>
-              <strong>{{ $message }} <br>
-              <br>
-              <br>
-              <br>
-              <br>
-            </strong>
+              <strong>{{ $message }}</strong>
             </div>
             @endif
 
