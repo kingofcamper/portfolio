@@ -12,6 +12,7 @@ class frontendController extends Controller
 		return view('index');
 	}
 	*/
+	
 
 	public function about()
 	{

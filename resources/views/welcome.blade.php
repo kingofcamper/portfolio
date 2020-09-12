@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+   .box{
+    width:600px;
+    margin:0 auto;
+    border:1px solid #ccc;
+   }
+   .has-error
+   {
+    border-color:#cc0000;
+    background-color:#ffff99;
+   }
+  </style>
+
     <title>Mini Profile - Belghith Bilel</title>
     
 <!--
@@ -145,23 +160,48 @@ https://templatemo.com/tm-530-mini-profile
               </div>
 
               <div class="tm-contact-item">
-                <i class="fas fa-5x fa- tm-contact-item-icon"></i>
+                <i class="fas fa-5x fa-address-card tm-contact-item-icon"></i>
                 <p class="mb-0">
-                  You are NOT allowed to re-distribute this template in any download website. Else, it is illegal action.
+                  6-month end-of-study internship at Intelligent security it
                 </p>
               </div>
             </div>
           </div>
         </div>
-
+        <section id="contact">
         <div class="row">
           <div class="col-12">
+            @if(count($errors) > 0)
+              <div class="alert-danger alert">
+                <button type="button" class="close" data-dismiss="alert">x</button>
+                <ul>
+                  @foreach($errors->all() as $error)
+                    <li>{{$error}} </li>
+                  @endforeach
+                </ul>
+              </div>
+            @endif
+
+            @if($message = Session::get('success'))
+            <div class="alert-success alert-block alert">
+              <button type="button" class="close" data-dismiss="alert">x</button>
+              <strong>{{ $message }} <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </strong>
+            </div>
+            @endif
+
             <form
-              action="index.html"
+              action="{{ url('sendemail/send') }}"
               method="POST"
               id="tmContactForm"
               class="tm-bg-white-transparent"
             >
+            @csrf
+
               <div class="form-group">
                 <input
                   type="text"
@@ -196,6 +236,8 @@ https://templatemo.com/tm-530-mini-profile
                 <button
                   type="submit"
                   class="btn tm-btn-submit rounded-0 text-white"
+                  name="send"
+                  value="send"
                 >
                   Submit
                 </button>
@@ -203,6 +245,7 @@ https://templatemo.com/tm-530-mini-profile
             </form>
           </div>
         </div>
+      </section>
         <!-- row -->
         <div class="row">
           <footer class="col-12">
