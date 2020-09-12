@@ -129,19 +129,23 @@ https://templatemo.com/tm-530-mini-profile
               <div class="tm-contact-item">
                 <i class="fas fa-5x fa-code tm-contact-item-icon"></i>
                 <p class="mb-0">
-                  Quisque venenatis viverra ultrices. Lorem ipsum dolor sit
-                  amet. Nullam sit amet tempor nisl.
+                  <strong>  PHP Framework: </strong> Laravel <br>
+                  <strong>Javascript Framework: </strong> Vue js <br>  
+                  <strong>Programming languages: </strong> Javascript, PHP, Java, SQL, Dart, C, C++, C# <br>  
+                  <strong>UX/UI design: </strong> Adobe XD, Photoshop
                 </p>
               </div>
               <div class="tm-contact-item">
-                <i class="fas fa-5x fa-building tm-contact-item-icon"></i>
+                <i class="fas fa-5x fa-university tm-contact-item-icon"></i>
                 <p class="mb-0">
-                  You can absolutely feel free to use Mini Profile for your web page or any usage for your website.
+                  <strong>College: </strong> higher institute of computer science Manar <br> 
+                  <strong>applied Degree : </strong> computer system and software <br>  
+                  <strong>2017 - 2020 </strong>
                 </p>
               </div>
 
               <div class="tm-contact-item">
-                <i class="fas fa-5x fa-balance-scale tm-contact-item-icon"></i>
+                <i class="fas fa-5x fa- tm-contact-item-icon"></i>
                 <p class="mb-0">
                   You are NOT allowed to re-distribute this template in any download website. Else, it is illegal action.
                 </p>
@@ -205,7 +209,7 @@ https://templatemo.com/tm-530-mini-profile
             <p class="text-center tm-copyright-text">
             Copyright 2020 Mini Profile Page 
             
-            - Design: Template Mo</p>
+            - By Bilel Belghith</p>
           </footer>
         </div>
       </div>
