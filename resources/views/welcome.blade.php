@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="img/free_horizontal_on_white_by_logaster (1).png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -101,12 +102,16 @@ https://templatemo.com/tm-530-mini-profile
 
             <div class="tm-portfolio-item">
               <div class="tm-portfolio-name text-white tm-bg-orange">
-                <a href="https://xd.adobe.com/view/da8188d5-b513-4308-724f-ae1789c4ce22-acb0/"  style="color: white;"" >Junior UX Designer</a> 
+                <a href="https://xd.adobe.com/view/da8188d5-b513-4308-724f-ae1789c4ce22-acb0/" style="color:  white;">Junior UX Designer</a> 
               </div>
               <div class="tm-portfolio-description">
                 <h3 class="tm-text-orange">
-                  Git Hub
-                  <span class="tm-title-small">(2018-2019)</span>
+                  Android Design
+                  <span class="tm-title-small">(2018-2019)
+                      <a href="https://xd.adobe.com/view/da8188d5-b513-4308-724f-ae1789c4ce22-acb0/">
+                        <i class="fas fa-link float-right" style="color: #cc6733;"></i>
+                      </a>
+                  </span>
                 </h3>
                 <p class="mb-0">
                   design of user experiences for hand-held and wearable devices.
@@ -121,11 +126,15 @@ https://templatemo.com/tm-530-mini-profile
               </div>
               <div class="tm-portfolio-description">
                 <h3 class="tm-text-blue">
-                  Git Hub
-                  <span class="tm-title-small">(2018-2019)</span>
+                  Recruitement Plateforme
+                  <span class="tm-title-small">(2018-2019) 
+                    <a href="https://laravelvuejs5.herokuapp.com/">
+                      <i class="fas fa-link float-right"></i>
+                    </a>
+                  </span>
                 </h3>
                 <p class="mb-0">
-                  Building a recruitment web application for the benefits of entreprises
+                  Building a recruitment web application for the benefits of recruiters.
                 </p>
               </div>
             </div>
@@ -162,7 +171,9 @@ https://templatemo.com/tm-530-mini-profile
               <div class="tm-contact-item">
                 <i class="fas fa-5x fa-address-card tm-contact-item-icon"></i>
                 <p class="mb-0">
-                  6-month end-of-study internship at Intelligent security it
+                  6-month end-of-study internship at Intelligent Security IT, <br>  
+                  'design and implementation of an information
+                  security awareness platform'
                 </p>
               </div>
             </div>
