@@ -32,7 +32,20 @@ https://templatemo.com/tm-530-mini-profile
 -->
   </head>
   <body>
-    
+    <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+        <i class="fas fa-envelope"></i><a href="mailto:bilel.belghith123@gmail.com">bilel.belghith123@gmail.com</a>
+        <i class="fas fa-phone"></i>+00216 22 70 66 65
+      </div>
+      <div class="social-links float-right">
+        <a href="https://www.facebook.com/bilel.belghith.520/" class="facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="skype"><i class="fab fa-skype"></i></a>
+        <a href="https://www.linkedin.com/in/bilel-belghith-a63773175/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/kingofcamper" class="github"><i class="fab fa-github"></i></i></a>
+      </div>
+    </div>
+  </section>
     <!-- Welcome Section -->
     <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/mini-profile-bg-01.jpg">
       <div class="container-fluid tm-brand-container-outer">
