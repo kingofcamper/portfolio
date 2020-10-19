@@ -211,6 +211,7 @@ https://templatemo.com/tm-530-mini-profile
                 <i class="fas fa-5x fa-code tm-contact-item-icon"></i>
                 <p class="mb-0">
                   <strong>  PHP Framework: </strong> Laravel <br>
+                  <strong>  JAVA Framework: </strong> Spring <br>
                   <strong>Javascript Framework: </strong> Vue js <br>  
                   <strong>Programming languages: </strong> Javascript, PHP, Java, SQL, Dart, C, C++, C# <br>  
                   <strong>UX/UI design: </strong> Adobe XD, Photoshop
