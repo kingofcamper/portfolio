@@ -124,7 +124,7 @@ https://templatemo.com/tm-530-mini-profile
             <div class="col-md-5">
               <div class="tm-welcome-right">
                 <center>
-                <img src="img/b.jpg" class="rounded-circle p-3" alt="" height="250" width="340">
+                <img src="img/a.jpg" class="rounded-circle p-3" alt="" height="280" width="230">
                 </center>                
                 <p class="mb-0">
                   Building quality websites and applications with Laravel, Vue js, as well as many other technologies.
