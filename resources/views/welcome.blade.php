@@ -124,7 +124,7 @@ https://templatemo.com/tm-530-mini-profile
             <div class="col-md-5">
               <div class="tm-welcome-right">
                 <center>
-                <img src="img/a.jpg" class="rounded-circle p-3" alt="" height="280" width="230">
+                <img src="img/a.jpg" class="rounded-circle p-3" alt="" height="250" width="210">
                 </center>                
                 <p class="mb-0">
                   Building quality websites and applications with Laravel, Vue js, as well as many other technologies.
@@ -143,8 +143,26 @@ https://templatemo.com/tm-530-mini-profile
         <div class="row">
           <div class="col-12">
             <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-blue">
+                <a href="https://laravelvuejs5.herokuapp.com/" style="color: white;">Web application</a>        
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-blue">
+                  Online Reporting System
+                  <span class="tm-title-small">(2020-2021) 
+                    <a href="https://reporting-system-app.herokuapp.com/">
+                      <i class="fas fa-link float-right"></i>
+                    </a>
+                  </span>
+                </h3>
+                <p class="mb-0">
+                  Building an online reporting system for systems security.
+                </p>
+              </div>
+            </div>
+            <div class="tm-portfolio-item">
               <div class="tm-portfolio-name text-white tm-bg-green">
-                Application development
+                Web application
               </div>
               <div class="tm-portfolio-description">
                 <h3 class="tm-text-green">
@@ -178,15 +196,15 @@ https://templatemo.com/tm-530-mini-profile
             </div>
 
             <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-blue">
-                <a href="https://laravelvuejs5.herokuapp.com/" style="color: white;">Application development</a>        
+              <div class="tm-portfolio-name text-white tm-bg-yellow">
+                <a href="https://laravelvuejs5.herokuapp.com/" style="color: white;">Web application</a>        
               </div>
               <div class="tm-portfolio-description">
-                <h3 class="tm-text-blue">
+                <h3 class="tm-text-yellow">
                   Recruitement Plateforme
                   <span class="tm-title-small">(2018-2019) 
                     <a href="https://laravelvuejs5.herokuapp.com/">
-                      <i class="fas fa-link float-right"></i>
+                      <i class="fas fa-link float-right" style="color: #98A200;"></i>
                     </a>
                   </span>
                 </h3>
@@ -194,7 +212,7 @@ https://templatemo.com/tm-530-mini-profile
                   Building a recruitment web application for the benefits of recruiters.
                 </p>
               </div>
-            </div>
+            </div>            
           </div>
         </div>
       </div>
