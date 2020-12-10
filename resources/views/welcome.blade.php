@@ -63,8 +63,15 @@
 
 .d-lg-block {
   display: block !important;
- }
+}
 
+.tm-text-yellow {
+  color: #98A200;
+}
+
+.tm-bg-yellow {
+  background-color: #98A200;
+}
   </style>
 
     <title>Mini Profile - Belghith Bilel</title>
