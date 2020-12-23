@@ -4,6 +4,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="description" content="Bilel belghith profile laravel & wordpress fullstack freelancer web developper ">
 	<link rel="icon" href="img/free_horizontal_on_white_by_logaster (1).png" type="image/png" sizes="16x16">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
 	<link rel="stylesheet" href="css/all.min.css" />
@@ -74,7 +75,7 @@
 	}
 </style>
 
-<title>Mini Profile - Belghith Bilel</title>
+<title>Profile - Belghith Bilel</title>
 
 <!--
 Mini Profile Template
@@ -120,7 +121,7 @@ https://templatemo.com/tm-530-mini-profile
 					<!-- White transparent bg -->
 					<div class="col-md-7 tm-welcome-left-col">
 						<div class="tm-welcome-left">
-							<h2 class="tm-welcome-title">Welcome to my Mini Profile Page</h2>
+							<h2 class="tm-welcome-title">Welcome to my Profile Page</h2>
 							<p class="pb-0">
 								Laravel offers superior code foundations, easy maintainability and resilient features, it has proven its position amongst the best PHP frameworks available. <br> <br>
 								we work closely with our clients to build scalable web applications making use of Laravel to elevate your business through high quality web applications.
@@ -131,7 +132,7 @@ https://templatemo.com/tm-530-mini-profile
 					<div class="col-md-5">
 						<div class="tm-welcome-right">
 							<center>
-								<img src="img/a.jpg" class="rounded-circle p-3" alt="" height="157" width="157">
+								<img src="img/a.jpg" alt="bilel belghith" class="rounded-circle p-3" alt="" height="157" width="157">
 							</center>                
 							<p class="mb-0">
 								Building quality websites and applications with Laravel, Vue js, as well as many other technologies.
@@ -155,7 +156,7 @@ https://templatemo.com/tm-530-mini-profile
 						</div>
 						<div class="tm-portfolio-description">
 							<h3 class="tm-text-blue">
-								Online Reporting System
+								Client
 								<span class="tm-title-small">(2020-2021) 
 									<a href="https://reporting-system-app.herokuapp.com/">
 										<i class="fas fa-link float-right"></i>
