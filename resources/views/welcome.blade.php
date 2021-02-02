@@ -205,7 +205,7 @@ https://templatemo.com/tm-530-mini-profile
 		<div class="container clearfix">
 			<div class="contact-info float-left">
 				<i class="fas fa-envelope"></i><a href="mailto:bilel.belghith123@gmail.com">bilel.belghith123@gmail.com</a>
-				<i class="fas fa-phone"></i>+00216 22 70 66 65
+				<i class="fas fa-phone"></i>+216 22 70 66 65
 			</div>
 			<div class="social-links float-right">
 				<a href="https://www.facebook.com/bilel.belghith.520/" class="facebook"><i class="fab fa-facebook"></i></a>
@@ -240,7 +240,7 @@ https://templatemo.com/tm-530-mini-profile
 					<div class="col-md-7 tm-welcome-left-col">
 						<div class="tm-welcome-left">
 							<h2 class="tm-welcome-title">Welcome to my Profile</h2>
-							<p class="pb-0">
+							<p class="pb-0 sized-paragraph">
 								Detail-oriented Laravel, WordPress Developer with extensive experience with WordPress plugins and widgets. Well versed in many other programming languages. Delivers well-made projects on time. <br> <br>
 								we work closely with our clients to build scalable web applications making use of Laravel & Wordpress to elevate your business through high quality web applications.
 							</p>
