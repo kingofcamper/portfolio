@@ -12,7 +12,123 @@
 	<link rel="stylesheet" href="css/templatemo-style.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 	<style type="text/css">
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
 	.box{
 		width:600px;
 		margin:0 auto;
@@ -73,6 +189,8 @@
 	.tm-bg-yellow {
 		background-color: #98A200;
 	}
+	
+
 </style>
 
 <title>Profile - Belghith Bilel</title>
@@ -82,7 +200,7 @@ Mini Profile Template
 https://templatemo.com/tm-530-mini-profile
 -->
 </head>
-<body>
+<body>	
 	<section id="topbar" class="d-none d-lg-block">
 		<div class="container clearfix">
 			<div class="contact-info float-left">
@@ -107,7 +225,7 @@ https://templatemo.com/tm-530-mini-profile
 					<div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
 						<div class="tm-brand-container text-center">
 							<h1 class="tm-brand-name">Bilel Belghith</h1>
-							<p class="tm-brand-description mb-0">Junior Web developer</p>
+							<p class="tm-brand-description mb-0">PHP developer / Front End Developer</p>
 						</div>
 					</div>
 				</div>
@@ -121,10 +239,10 @@ https://templatemo.com/tm-530-mini-profile
 					<!-- White transparent bg -->
 					<div class="col-md-7 tm-welcome-left-col">
 						<div class="tm-welcome-left">
-							<h2 class="tm-welcome-title">Welcome to my Profile Page</h2>
+							<h2 class="tm-welcome-title">Welcome to my Profile</h2>
 							<p class="pb-0">
-								Laravel offers superior code foundations, easy maintainability and resilient features, it has proven its position amongst the best PHP frameworks available. <br> <br>
-								we work closely with our clients to build scalable web applications making use of Laravel to elevate your business through high quality web applications.
+								Detail-oriented Laravel, WordPress Developer with extensive experience with WordPress plugins and widgets. Well versed in many other programming languages. Delivers well-made projects on time. <br> <br>
+								we work closely with our clients to build scalable web applications making use of Laravel & Wordpress to elevate your business through high quality web applications.
 							</p>
 						</div>
 					</div>
@@ -144,6 +262,7 @@ https://templatemo.com/tm-530-mini-profile
 		</div>
 	</section>
 	<!-- End Welcome section -->
+
 
 	<!-- Portfolio section -->
 	<section id="tmPortfolio">
@@ -236,10 +355,9 @@ https://templatemo.com/tm-530-mini-profile
 						<div class="tm-contact-item">
 							<i class="fas fa-5x fa-code tm-contact-item-icon"></i>
 							<p class="mb-0">
-								<strong>  PHP Framework: </strong> Laravel <br>
-								<strong>  JAVA Framework: </strong> Spring <br>
-								<strong>Javascript Framework: </strong> Vue js <br>  
-								<strong>Programming languages: </strong> Javascript, PHP, Java, SQL, Dart, C, C++, C# <br>  
+								<strong> Frameworks & CMS: </strong> Laravel, Spring, Wordpress <br>								
+								<strong>Frontend Framework: </strong> Vue js, AJAX, JQuery, Javascript <br>  
+								<strong>Programming languages: </strong> Javascript, PHP, Java, SQL, Dart, C, C++, C#, CSS <br>  
 								<strong>UX/UI design: </strong> Adobe XD, Photoshop
 							</p>
 						</div>
@@ -335,12 +453,25 @@ https://templatemo.com/tm-530-mini-profile
 						</form>
 					</div>
 				</div>
-			</section>
+			</section><hr>
 			<!-- row -->
+			<div class="container-fluid">
+   <section class="customer-logos slider ">
+      <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png"></div>
+      <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png"></div>
+      <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"></div>
+      <div class="slide"><img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/JQuery_logo-512.png"></div>
+      <div class="slide"><img src="https://i.pinimg.com/originals/f1/ea/a7/f1eaa7278f64e27128e062a3de918265.png"></div>
+      <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/480px-Bootstrap_logo.svg.png"></div>
+      <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png"></div>
+      <div class="slide"><img src="https://i.pinimg.com/originals/9c/ea/ba/9ceaba69b7a9f89158ff953107978f3e.png"></div>
+      <div class="slide"><img src="http://assets.stickpng.com/thumbs/58481791cef1014c0b5e4994.png"></div>
+   </section>
+</div> <hr><br> 
 			<div class="row">
 				<footer class="col-12">
 					<p class="text-center tm-copyright-text">
-						Copyright 2020 Mini Profile Page 
+						Copyright 2021 Profile Page 
 
 					- By Bilel Belghith</p>
 				</footer>
@@ -348,10 +479,33 @@ https://templatemo.com/tm-530-mini-profile
 		</div>
 	<!-- container -->
 	</div>
+
 <!-- section -->
-<script src="js/jquery.min.js"></script>
+
 <script src="js/parallax.min.js"></script>
 <script>
+	$(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
 	function detectMsBrowser() {
 		using_ms_browser =
 		navigator.appName == "Microsoft Internet Explorer" ||
@@ -383,6 +537,7 @@ https://templatemo.com/tm-530-mini-profile
         	setBrandMarginTop();
         });
     });
+
 </script>
 </body>
 </html>
