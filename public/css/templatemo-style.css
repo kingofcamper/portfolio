@@ -285,9 +285,17 @@ p {
   color: #676767;
 }
 
-@media (max-width: 1054px) {
+@media (max-width: 767px) {
+  .tm-brand-container-outer {
+  margin-top: -979px;
+  }
   .tm-contact-item-icon {
     margin-bottom: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .tm-brand-container-outer {
+  margin-top: -1000px;
   }
 }
 
