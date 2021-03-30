@@ -13,186 +13,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-	<style type="text/css">
-
-.slick-slide {
-    margin: 0px 20px;
-}
-
-.slick-slide img {
-    width: 100%;
-}
-
-.slick-slider
-{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-            user-select: none;
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.slick-list
-{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
-
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
-
-.slick-slide
-{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
-    height: auto;
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
-}
-	.box{
-		width:600px;
-		margin:0 auto;
-		border:1px solid #ccc;
-	}
-	.has-error
-	{
-		border-color:#cc0000;
-		background-color:#ffff99;
-	}
-	#topbar {
-		background: #fff;
-		padding: 10px 0;
-		border-bottom: 1px solid #eee;
-		font-size: 14px;
-	}
-
-	#topbar .contact-info a {
-		line-height: 1;
-		color: #444;
-		transition: 0.3s;
-	}
-
-	#topbar .contact-info a:hover {
-		color: #428bca;
-	}
-
-	#topbar .contact-info i {
-		color: #428bca;
-		padding: 4px;
-	}
-
-	#topbar .contact-info .fas .fa-phone {
-		padding-left: 20px;
-		margin-left: 10px;
-	}
-
-	#topbar .social-links a {
-		color: #5c768d;
-		padding: 4px 12px;
-		display: inline-block;
-		line-height: 1px;
-		transition: 0.3s;
-	}
-
-	#topbar .social-links a:hover {
-		color: #428bca;
-	}
-
-	.d-lg-block {
-		display: block !important;
-	}
-
-	.tm-text-yellow {
-		color: #98A200;
-	}
-
-	.tm-bg-yellow {
-		background-color: #98A200;
-	}
-	
-
-</style>
-
 <title>Profile - Belghith Bilel</title>
 
 <!--
@@ -267,6 +87,9 @@ https://templatemo.com/tm-530-mini-profile
 	<!-- Portfolio section -->
 	<section id="tmPortfolio">
 		<div class="container-fluid">
+			<div class="iframe">
+				<iframe src="https://www.youtube.com/embed/BbkPf5vL-H4?autoplay=0&showinfo=0&controls=0&rel=0?" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+			</div>
 			<div class="row">
 				<div class="col-12">
 					<div class="tm-portfolio-item">
@@ -339,7 +162,7 @@ https://templatemo.com/tm-530-mini-profile
 								Building a recruitment web application for the benefits of recruiters.
 							</p>
 						</div>
-					</div>            
+					</div>  
 				</div>
 			</div>
 		</div>
@@ -483,7 +306,7 @@ https://templatemo.com/tm-530-mini-profile
 <!-- section -->
 
 <script src="js/parallax.min.js"></script>
-<script>
+<script>	
 	$(document).ready(function(){
     $('.customer-logos').slick({
         slidesToShow: 6,
@@ -506,6 +329,10 @@ https://templatemo.com/tm-530-mini-profile
         }]
     });
 });
+	 lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
 	function detectMsBrowser() {
 		using_ms_browser =
 		navigator.appName == "Microsoft Internet Explorer" ||
