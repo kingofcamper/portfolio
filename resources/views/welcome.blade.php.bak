@@ -291,17 +291,6 @@
                     </div>
                 </a>
             </div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-                <a href="https://www.shifti.co/" target="_blank">
-                    <div class="bilel-card">
-                        <div class="bilel-card-content"><img src="/img/shifti.jpeg" alt=""></div>
-                        <div class="bilel-card-info">
-                            <h2>Shifti</h2>
-                            <p>En Cours<br>Technologie: Symfony, React, API</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
         </div>
     </div>
 </section>
