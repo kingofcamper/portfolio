@@ -706,7 +706,7 @@ p {
 }
 @media (max-width: 767px) {
 	.bilel-card-info h2{
-		font-size: 4.5vw;
+		font-size: 4vw;
 	}
 	.bilel-card-info p,
 	.bilel-card-info span{
