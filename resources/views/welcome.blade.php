@@ -30,8 +30,7 @@
         <div class="social-links float-right">
             <a href="https://www.facebook.com/bilel.belghith.520/" target="_blank" class="facebook"><i
                     class="fab fa-facebook"></i></a>
-            <a href="https://www.youtube.com/channel/UCiWg4GbCA3uyocCW78GJaDw" target="_blank" class="youtube"><i
-                    class="fab fa-youtube"></i></a>
+            <a href="https://medium.com/@bilel.belghith123" target="_blank" class="medium"><i class="fab fa-medium"></i></a>
             <a href="https://www.linkedin.com/in/bilel-belghith-a63773175/" target="_blank" class="linkedin"><i
                     class="fab fa-linkedin"></i></a>
             <a href="https://github.com/kingofcamper" target="_blank" class="github"><i class="fab fa-github"></i></a>
@@ -48,7 +47,7 @@
                 <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
                     <div class="tm-brand-container text-center">
                         <h1 class="tm-brand-name">Bilel Belghith</h1>
-                        <p class="tm-brand-description mb-0">PHP developer / Front End Developer</p>
+                        <p class="tm-brand-description mb-0">Full Stack Developer<br /> MERN and LAMP stack developer.</p>
                     </div>
                 </div>
             </div>
@@ -64,11 +63,9 @@
                     <div class="tm-welcome-left">
                         <h2 class="tm-welcome-title">Welcome to my Profile</h2>
                         <p class="pb-0 sized-paragraph">
-                            Detail-oriented Laravel, WordPress Developer with extensive experience with WordPress
-                            plugins and widgets. Well versed in many other programming languages. Delivers well-made
-                            projects on time. <br> <br>
-                            we work closely with our clients to build scalable web applications making use of Laravel &
-                            Wordpress to elevate your business through high quality web applications.
+                        Having successfully completed various challenging projects, I am adept at problem-solving and collaborating with cross-functional teams. Continuously staying up-to-date with the latest industry trends, I strive to implement cutting-edge technologies to create seamless and user-friendly web experiences.<br> <br>
+                            <!-- we work closely with our clients to build scalable web applications making use of Laravel &
+                            Wordpress to elevate your business through high quality web applications. -->
                         </p>
                     </div>
                 </div>
@@ -80,7 +77,7 @@
                                  height="157" width="157">
                         </center>
                         <p class="mb-0">
-                            Building quality websites and applications with Laravel, Vue js, as well as many other
+                            Building quality websites and applications using MERN, LAMP, as well as many other
                             technologies.
                         </p>
                     </div>
@@ -419,30 +416,67 @@
         <hr>
         <!-- row -->
         <div class="container-fluid">
-            <section class="customer-logos slider ">
+            <section class="customer-logos slider">
                 <div class="slide"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png">
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
                 </div>
                 <div class="slide"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png">
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
                 </div>
                 <div class="slide"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png">
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
                 </div>
                 <div class="slide"><img
-                        src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/JQuery_logo-512.png">
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg">
                 </div>
                 <div class="slide"><img
-                        src="https://i.pinimg.com/originals/f1/ea/a7/f1eaa7278f64e27128e062a3de918265.png"></div>
-                <div class="slide"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/480px-Bootstrap_logo.svg.png">
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg">
                 </div>
                 <div class="slide"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png">
+                        src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg">
                 </div>
                 <div class="slide"><img
-                        src="https://i.pinimg.com/originals/9c/ea/ba/9ceaba69b7a9f89158ff953107978f3e.png"></div>
-                <div class="slide"><img src="http://assets.stickpng.com/thumbs/58481791cef1014c0b5e4994.png"></div>
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg">
+                </div>
+                <div class="slide"><img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg">
+                </div>
+                <div class="slide"><img
+                        src="https://cdn.worldvectorlogo.com/logos/next-js.svg">
+                </div>
+                <div class="slide"><img 
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg">
+                </div>
+                <div class="slide"><img 
+                    src="https://nestjs.com/logo-small.ede75a6b.svg">
+                </div>
+                <div class="slide"><img 
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
+                </div>
+                <div class="slide"><img 
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg">
+                </div>
+                <div class="slide"><img 
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg">
+                </div>
+                <div class="slide"><img 
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg">
+                </div>
+                <div class="slide"><img 
+                    src="https://freesvg.org/img/Pinguino-Linux.png">
+                </div>
+                <div class="slide"><img 
+                    src="https://friconix.com/png/fi-cwluxl-symfony.png">
+                </div>
+                <div class="slide"><img 
+                    src="https://laravel.com/img/logomark.min.svg">
+                </div>
+                <div class="slide"><img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Wordpress-Logo.svg/1200px-Wordpress-Logo.svg.png">
+                </div>
+                <div class="slide"><img 
+                    src="https://www.svgrepo.com/show/303591/prestashop-logo.svg">
+                </div>
             </section>
         </div>
         <hr>
