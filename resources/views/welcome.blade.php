@@ -450,7 +450,7 @@
         <div class="row">
             <footer class="col-12">
                 <p class="text-center tm-copyright-text">
-                    Copyright 2021 Profile Page
+                    Copyright 2024 Profile Page
 
                     - By Bilel Belghith</p>
             </footer>
